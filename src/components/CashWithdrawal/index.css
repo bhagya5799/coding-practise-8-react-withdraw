@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.container{
+    height: 90vh;
+    width: 40vw;
+    background-color: #150b3e;
+    margin:2rem 2rem;
+    padding-left: 1rem;
+    padding-right:1rem;
+    border-radius: 1rem;
+}
+.name-start-letter{
+    color:  #585076;
+height: 2.5rem;
+width: 2.5rem;
+background-color: #c7d2fe;
+text-align: center;
+border-radius: 24px;
+font-size: 1.5rem;
+
+
+}
+.balance{
+    font-size: 25px;
+}
+.profile-name-cart{
+    display: flex;
+    color: #c7d2fe;
+    gap: 22px;
+    margin-bottom: 12px;
+}
+.name{
+    margin-top: 28px;
+}
+
+
+.balance ,p,.choose-rupees-text{
+    color:#585076;
+}
+.amount-rupee{
+    color: aliceblue;
+}
+
+.amount-cart{
+    display: flex;
+    flex-direction: column;
+}
+.balance-cart{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   
+}
+.balance-cart, .withdraw{
+    color: #c7d2fe;
+}
+.withdraw{
+    font-size: 25px;
+}
+button{
+    height: 2rem;
+    width: 15rem;
+    background-color: #585076;
+     column-count: 5;
+  gap: 20px;
+}
+.button-cart{
+    display: flex;
+    flex-direction: column;
+    flex: warp;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex: wrap;
+}
